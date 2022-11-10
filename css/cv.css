@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'GlacialIndifference-Regular';
+    src: url(../ressources/font/GlacialIndifference-Regular.otf),
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(../ressources/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-LightItalic';
+    src: url(../ressources/fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(../ressources/fonts/Lato-Regular.ttf);
+}
+
+#cv_body {
+    width: 80%;
+    margin: auto;
+}
+
+* {
+    padding: 0em;
+    margin: 0em;
+    font-family: "Lato-Light";
+}
+
+/* Main */
+main {
+    display: flex;
+}
+
+/* Main */
+/* Skills */
+.skills {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 118, 43);
+    color: white;
+    margin-top: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    min-width: 25%;
+}
+
+/* Skills */
+/* Skills--name_surname_name_age */
+.skills--name_surname_age {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills--name_surname_age h1 {
+    position: relative;
+    font-size: 4em;
+    font-family: 'GlacialIndifference-Regular', "Lato-Regular", Verdana, Geneva, Tahoma, sans-serif;
+    top: 3em;
+    left: 0em;
+    z-index: 2;
+}
+
+#skills--name_surname_age--surname {
+    font-family: 'Lato-Light';
+}
+
+#skills--name_surname_age--age {
+    font-size: 0.8em;
+}
+
+#skills--triangle_topleft {
+    width: 0;
+    height: 0;
+    border-top: 455px solid rgba(28, 59, 79, 1);
+    border-right: 455px solid transparent;
+    position: absolute;
+    top: -1em;
+    z-index: 1;
+}
+
+.skills figure {
+    width: 50%;
+    z-index: 1;
+}
+
+.skills--name_surname_age img{
+    border: solid rgb(28, 59, 79) .1em;
+    border-radius: 100%;
+    width: 200px;
+    margin-left: 1em;
+}
+
+/* Skills--name_surname_name_age */
+/* Skills--personal_informations */
+.skills--personal_informations {
+    margin-top: 13em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.skills--personal_informations h2 {
+    font-family: 'GlacialIndifference-Regular', "Lato-Regular", Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(28, 59, 79);
+    font-size: 1.7em;
+    margin: 0.4em;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.skills--personal_informations p {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0.6em 0 0.6em 2.5em;
+    text-align: left;
+}
+
+.skills--personal_informations img {
+
+    width: 75px;
+    margin-left: 1em;
+    fill: rgb(28, 59, 79);
+}
+
+.skills--skills_languages_quality_otherinformation {
+    margin: 0.6em 0 0.6em 1em;
+}
+
+.skills--skills_languages_quality_otherinformation h2 {
+    font-family: 'GlacialIndifference-Regular', "Lato-Regular", Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(28, 59, 79);
+    font-size: 1.7em;
+    font-weight: lighter;
+
+}
+
+.skills--skills_languages_quality_otherinformation h3 {
+    font-family: 'GlacialIndifference-Regular', "Lato-Regular", Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(28, 59, 79);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0.6em;
+}
+
+.skills--skills_languages_quality_otherinformation ul {
+    margin: 0.6em;
+    padding-left: 1em;
+    line-height: 1.7em;
+}
+
+/* Skills--personal_informations */
+/* Experiences_centerofinterest */
+.experiences_centerofinterests {
+    display: flex;
+    flex-direction: column;
+    color: rgba(28, 59, 79, 1);
+    margin-top: 3em;
+    padding-left: 1em;
+    width: 60%;
+}
+
+.experiences_centerofinterests h1 {
+    color: rgb(231, 118, 43);
+    text-align: left;
+    font-size: 3.5em;
+    margin-bottom: 1em;
+    margin-right: 0.6em;
+}
+
+.experiences_centerofinterests h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(231, 118, 43);
+    text-decoration: underline;
+    text-decoration-color: rgba(28, 59, 79, 1);
+    text-underline-offset: 10px;
+    margin: 0.6em;
+}
+
+#experiences_centerofinterests--specifique_subtitile {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0.6em;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+}
+
+.experiences_centerofinterests h3 {
+    font-family: 'Lato-Regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0.6em;
+}
+
+.experiences_centerofinterests--specifique_dates {
+    font-family: 'Lato-Light', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.experiences_centerofinterests h4 {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 0.6em;
+}
+
+.experiences_centerofinterests ul {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif font-size: 1em;
+    line-height: 1.7em;
+    margin: 0.6em;
+    padding-left: 1.2em;
+}
+
+.experiences_centerofinterests p {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.6em;
+}
+
+a:hover {
+    color: rgb(28, 59, 79);
+}
+
+a {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(231, 118, 43);
+}
