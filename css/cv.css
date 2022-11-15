@@ -18,20 +18,36 @@
     src: url(../ressources/fonts/Lato-Regular.ttf);
 }
 
-#cv_body {
+/* Body */
+body {
     width: 80%;
     margin: auto;
 }
 
+@media all and (min-width:1500px) {
+    body {
+        width: 1200px;
+        margin: auto;
+    }
+}
+
 * {
-    padding: 0em;
-    margin: 0em;
+    padding: 0;
+    margin: 0;
     font-family: "Lato-Light";
 }
 
 /* Main */
 main {
     display: flex;
+
+}
+
+@media all and (max-width: 1400px) {
+    body {
+        width: auto;
+        margin: auto;
+    }
 }
 
 /* Main */
@@ -44,8 +60,9 @@ main {
     margin-top: 3em;
     padding-left: 1em;
     padding-right: 1em;
-    min-width: 25%;
+    width: auto;
 }
+
 
 /* Skills */
 /* Skills--name_surname_name_age */
@@ -87,7 +104,7 @@ main {
     z-index: 1;
 }
 
-.skills--name_surname_age img{
+.skills--name_surname_age img {
     border: solid rgb(28, 59, 79) .1em;
     border-radius: 100%;
     width: 200px;
@@ -223,7 +240,16 @@ main {
     font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
     margin: 0.6em;
 }
+@media all and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        align-items: center;
 
+    }
+    .experiences_centerofinterests{
+        width: auto;
+    }
+}
 a:hover {
     color: rgb(28, 59, 79);
 }
