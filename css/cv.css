@@ -147,6 +147,23 @@ main {
     text-align: left;
 }
 
+#mail {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1 em;
+    color: white;
+    text-decoration: none;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#tel {
+    font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1 em;
+    color: white;
+    text-decoration: none;
+    line-height: 1.5em;
+    text-align: left;
+}
 .skills--personal_informations img {
 
     width: 75px;
