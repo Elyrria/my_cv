@@ -50,6 +50,10 @@ main {
     }
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 /* Main */
 /* Skills */
 .skills {
@@ -121,6 +125,10 @@ main {
 
 }
 
+#linkedin {
+    width: 35%;
+}
+
 #border1 {
     display: flex;
     border-bottom: solid white 3px;
@@ -164,6 +172,7 @@ main {
     line-height: 1.5em;
     text-align: left;
 }
+
 .skills--personal_informations img {
 
     width: 75px;
@@ -221,16 +230,18 @@ main {
     text-align: center;
     font-size: 2em;
     color: rgb(231, 118, 43);
-    margin: 0.6em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.8em;
 }
 
-.border2 {
-    display: flex;
-    border-bottom: solid rgb(28, 59, 79) 3px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+hr {
+
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0.6em;
+    border: solid 0.15em rgb(28, 59, 79);
+
 }
 
 #experiences_centerofinterests--specifique_subtitile {
@@ -242,36 +253,38 @@ main {
     margin-right: 0.6em;
 }
 
-.experiences_centerofinterests h3 {
+.experiences_centerofinterests dl {
     font-family: 'Lato-Regular', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1.5em;
-    margin: 0.6em;
+    margin-top: 0.6em;
 }
 
 .experiences_centerofinterests--specifique_dates {
     font-family: 'Lato-Light', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.experiences_centerofinterests h4 {
+.experiences_centerofinterests dt {
     font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3em;
+    font-size: 0.9em;
     font-weight: lighter;
     text-align: justify;
-    margin: 0.6em;
+    margin-top: 0.9em;
 }
 
 .experiences_centerofinterests ul {
     font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     line-height: 1.7em;
-    margin: 0.6em;
+    margin-top: 0.6em;
     padding-left: 1.2em;
 }
 
 .experiences_centerofinterests p {
     font-family: 'Lato-LightItalic', Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0.6em;
+    font-size: 0.7em;
+    margin-top: 0.9em;
+
 }
 
 @media all and (max-width: 1000px) {
